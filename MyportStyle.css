@@ -1,0 +1,115 @@
+label {
+  font-size: 17px;
+}
+b {
+  font-size: 17px;
+}
+p {
+  font-size: 17px;
+}
+body {
+  background-color: white;
+  margin: 0;
+  font-family: monospace;
+  font-size: 15px;
+}
+header {
+  height: 100vh;
+  color: white;
+  background-color: brown;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+h1 {
+  font-size: 50px;
+  color: black;
+}
+.sub {
+  font-weight: bold;
+  font-size: 15px;
+  display: inline;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sub:hover {
+  background-color: gray;
+}
+img {
+  height: 300px;
+  width: 200px;
+}
+section {
+  height: 100vh;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-color: cornflowerblue;
+}
+main {
+  padding: 10px;
+}
+button:hover {
+  background-color: darkgoldenrod;
+}
+.submit {
+  color: grey;
+  background-color: greenyellow;
+  font-size: 15px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid rgb(16, 2, 2);
+  height: 20px;
+  width: 200px;
+}
+footer {
+  background-color: black;
+  color: grey;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.Top {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  color: grey;
+  background-color: aqua;
+  cursor: pointer;
+}
+.Top:hover {
+  background-color: violet;
+}
+table,
+th,
+td {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+th,
+td {
+  padding: 15px;
+}
+ol {
+  text-decoration: underline;
+  cursor: pointer;
+}
